@@ -1,0 +1,1 @@
+Bonjour avec file_put_contents !
