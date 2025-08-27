@@ -1,0 +1,15 @@
+# Ignorer tous les fichiers de démo
+*.txt
+*.json
+*.png
+ 
+# Mais garder le README et le CSS
+!README.md
+!css/
+ 
+# Garder tous les fichiers PHP
+!*.php
+ 
+# Garder tous les fichiers log view
+logs/
+*.log
