@@ -2,14 +2,22 @@
 *.txt
 *.json
 *.png
- 
+
 # Mais garder le README et le CSS
 !README.md
 !css/
- 
+
 # Garder tous les fichiers PHP
 !*.php
- 
+
 # Garder tous les fichiers log view
 logs/
 *.log
+
+# Garder ces fichiers PHP spécifiques (même si règle plus haut change)
+!list.php
+!post.php
+!rand.php
+!json_decode.php
+!children.php
+!session.php
